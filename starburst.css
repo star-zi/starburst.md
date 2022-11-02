@@ -1,17 +1,17 @@
 .theme-dark {
     --background-primary: #0d0d0d;
     --background-primary-alt: #111;
-    --background-secondary: #0c0c0c;
+    --background-secondary: #090909;
     --background-secondary-alt: #090909;
-    --background-modifier-border: rgb(32, 32, 32);
-    --background-modifier-form-field: rgba(0, 0, 0, 0.3);
-    --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.22);
-    --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
+    --background-modifier-border: #202020;
+    --background-modifier-form-field: #0000004d;
+    --background-modifier-form-field-highlighted: #00000038;
+    --background-modifier-box-shadow: #0000004d;
     --background-modifier-success: #197300;
     --background-modifier-error: #3d0000;
     --background-modifier-error-rgb: 61, 0, 0;
     --background-modifier-error-hover: #470000;
-    --background-modifier-cover: rgba(0, 0, 0, 0.8);
+    --background-modifier-cover: #000000cc;
     --text-accent: #7b64a7;
     --text-accent-hover: #8268b3;
     --text-normal: #dcddde;
@@ -34,12 +34,4 @@
     --scrollbar-bg: #111;
     --scrollbar-thumb-bg: #181818;
     --highlight-mix-blend-mode: lighten;
-}
-
-/* markdown text color */
-.cm-s-obsidian span.cm-inline-code {
-    color: #8268b3;
-}
-.markdown-preview-view code {
-    color: #8268b3;
 }
