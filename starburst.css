@@ -35,3 +35,12 @@
     --scrollbar-thumb-bg: #181818;
     --highlight-mix-blend-mode: lighten;
 }
+
+.status-bar {
+    opacity: 0.2;
+    transition: 0.3s;
+}
+
+.status-bar:hover {
+    opacity: 1;    
+}
